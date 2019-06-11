@@ -55,7 +55,9 @@
         },
         "register": {
           "noaccount": "You don't have an account yet?",
-          "link": "Register a new account"
+          "norequestcreated": "Do you want to create a request?",
+          "link": "Register a new account",
+          "createrequest": "Register a new request"
         }
       },
       "error": {
@@ -93,7 +95,7 @@
     "action": {
       "addblob": "Add blob",
       "addimage": "Add image",
-      "back": "Back",
+      "back": "Exit",
       "cancel": "Cancel",
       "delete": "Delete",
       "edit": "Edit",
@@ -135,5 +137,5 @@
     "idexists": "A new {{ entityName }} cannot already have an ID",
     "idnull": "Invalid ID"
   },
-  "footer": "This is your footer"
+  "footer": "Freddy Inga - 2019"
 }

@@ -69,11 +69,6 @@ export class Request extends React.Component<IRequestProps, IRequestState> {
       <div>
         <h2 id="request-heading">
           <Translate contentKey="edimcaApp.request.home.title">Requests</Translate>
-          <Link to={`${match.url}/new`} className="btn btn-primary float-right jh-create-entity" id="jh-create-entity">
-            <FontAwesomeIcon icon="plus" />
-            &nbsp;
-            <Translate contentKey="edimcaApp.request.home.createLabel">Create new Request</Translate>
-          </Link>
         </h2>
         <div className="table-responsive">
           <Table responsive>
@@ -137,7 +132,7 @@ export class Request extends React.Component<IRequestProps, IRequestState> {
                   <td>{request.technician ? request.technician.id : ''}</td>
                   <td className="text-right">
                     <div className="btn-group flex-btn-group-container">
-                      <Button onClick={() => this.approved(request)} color="primary" size="sm">
+                      <Button onClick={this.approved(request)} color="primary" size="sm">
                         <FontAwesomeIcon icon="pencil-alt" />{' '}
                         <span className="d-none d-md-inline">
                           <Translate contentKey="entity.action.approved">Approved</Translate>
@@ -155,14 +150,6 @@ export class Request extends React.Component<IRequestProps, IRequestState> {
                           <Translate contentKey="entity.action.view">View</Translate>
                         </span>
                       </Button>
-                      {/*                       
-                      <Button tag={Link} to={`${match.url}/${request.id}/delete`} color="danger" size="sm">
-                        <FontAwesomeIcon icon="trash" />{' '}
-                        <span className="d-none d-md-inline">
-                          <Translate contentKey="entity.action.delete">Delete</Translate>
-                        </span>
-                      </Button>
-                       */}
                     </div>
                   </td>
                 </tr>

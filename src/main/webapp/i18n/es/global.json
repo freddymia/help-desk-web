@@ -55,7 +55,9 @@
         },
         "register": {
           "noaccount": "¿No tienes una cuenta todavía?",
-          "link": "Crea una cuenta"
+          "norequestcreated": "¿Deseas crear una solicitud?",
+          "link": "Crea una cuenta",
+          "createrequest": "Crea una nueva solicitud"
         }
       },
       "error": {
@@ -93,7 +95,7 @@
     "action": {
       "addblob": "Añadir fichero",
       "addimage": "Añadir imagen",
-      "back": "Volver",
+      "back": "Salir",
       "cancel": "Cancelar",
       "delete": "Eliminar",
       "edit": "Editar",
@@ -134,5 +136,5 @@
     "idexists": "A new {{entityName}} cannot already have an ID",
     "idnull": "Invalid ID"
   },
-  "footer": "pie de página"
+  "footer": "Freddy Inga - 2019"
 }
