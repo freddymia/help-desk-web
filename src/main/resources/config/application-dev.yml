@@ -37,8 +37,8 @@ spring:
     datasource:
         type: com.zaxxer.hikari.HikariDataSource
         url: jdbc:postgresql://localhost:5432/edimca
-        username: edimca
-        password:
+        username: postgres
+        password: P4$$w0rd01
         hikari:
             poolName: Hikari
             auto-commit: false

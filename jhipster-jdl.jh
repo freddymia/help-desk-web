@@ -1,0 +1,25 @@
+entity Request {
+	name String,
+    description String,
+    priority Priority,
+    created ZonedDateTime,
+    approved ZonedDateTime,
+    assigned ZonedDateTime,
+    status Status
+}
+
+enum Priority {
+	High, Normal, Low
+}
+
+enum Status {
+	Pending, Approved, Assigned
+}
+
+relationship ManyToOne {
+	Request{technician} to User
+}
+
+// Set pagination options
+paginate Request with pagination
+

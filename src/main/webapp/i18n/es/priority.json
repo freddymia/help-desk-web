@@ -1,0 +1,10 @@
+{
+  "edimcaApp": {
+    "Priority": {
+      "null": "",
+      "High": "High",
+      "Normal": "Normal",
+      "Low": "Low"
+    }
+  }
+}
