@@ -14,7 +14,7 @@ You will only need to run this command when dependencies change in [package.json
 
     npm install
 
-3. Create a database empty database in Postgres
+3. Create a empty database in Postgres
 
 4. Configure datasource, open the file help-desk-web/src/main/resources/config/application-dev.yml, on line 37 configure the data source with the information from the database created in the previous step
 
