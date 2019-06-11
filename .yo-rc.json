@@ -1,0 +1,38 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "edimca.ec.com",
+      "nativeLanguage": "es"
+    },
+    "jhipsterVersion": "5.8.2",
+    "applicationType": "monolith",
+    "baseName": "edimca",
+    "packageName": "edimca.ec.com",
+    "packageFolder": "edimca/ec/com",
+    "serverPort": "8080",
+    "authenticationType": "jwt",
+    "cacheProvider": "ehcache",
+    "enableHibernateCache": false,
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "postgresql",
+    "prodDatabaseType": "postgresql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": false,
+    "buildTool": "maven",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "NTU2MmIwYTI4NTYzNDU3YzQ1NzExOTA1ZjhjNDBiNTNlM2VjMTEwNDIxOGU2NDIzNGRhNzFlZjY4ZWRjODA3NGY4ODZmZjVhZWViNDA1ZWZlZDIyZmM4NGVhMjAyMmIwODMwOTYzZTUzMTk5ZWQwMjlmMWY1NTQ4ZmU3ZGM4MjY=",
+    "clientFramework": "react",
+    "useSass": true,
+    "clientPackageManager": "npm",
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": true,
+    "nativeLanguage": "es",
+    "languages": ["es", "en"]
+  }
+}
